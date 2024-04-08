@@ -1,0 +1,308 @@
+/* To make Responsive
+---------------------------------------------------------------------- /
+#  1 - media screen and (max-width: 1200px)
+#  2 - media screen and (max-width: 1024px)
+#  3 - media screen and (max-width: 768px)
+#  4 - media screen and (max-width: 480px)
+
+#
+---------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1024px) { 
+    header .navbar-nav > li > a {
+        font-size: 12px;
+    }
+    .countdown div  {
+        font-size: 40px;
+    }
+    .ministires figcaption.miistries-caption h4 {
+        font-size: 14px;
+    }
+    .sermon h4 {
+        font-size: 13px;
+    }  
+    h2.banner-heading {
+        font-size: 38px;
+    }  
+    .message-heading {
+      margin-top: 0px;
+      font-size: 28px;
+    }
+    .event-block-count-down div span  {
+        display: block;
+    }
+    .photo-gallery-title {
+        margin-top: 100px;
+    }
+    .event-meta span {
+        font-size: 12px;
+    }
+    .ministires figure:hover .figure-hover p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .ministires figcaption.miistries-caption {
+        padding: 7px;
+    }
+    .sermon-link li {
+        float: left;
+        margin-left: 12px;
+    }
+    .twitter {
+      -webkit-background-attachment: scroll;
+         -moz-background-attachment: scroll;
+           -o-background-attachment: scroll;
+          -ms-background-attachment: scroll;
+              background-attachment: scroll;
+    }
+    .photo li {
+        margin-left: 9px;
+    }
+    .blog-list .blog-content-body {
+        width: 45%;
+    }
+    .min-block-hover p {
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .event-list-title {
+        margin-top: 20px;
+    }
+    #map {
+        margin-bottom: 20px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .copyright .text-right {
+        text-align: center;
+    }
+    .blog-content-body {
+        margin-top: 20px;
+    }
+	.flexslider{
+		height: 450px;
+	}
+	
+	.countdown div{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.flexslider{
+		height: 350px;
+	}
+	.banner-heading{
+		text-align: center;
+	}
+	.next,
+	.event-head,
+	.banner-sub-heading{
+		display: none;
+	}
+	.countdown div span{
+		line-height: 100%;
+	}
+	.slides li h2 {
+		text-align: center;
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 480px) {
+    header.header-2 .addbg .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header-2 .navbar {
+        display: none;
+    }
+    .header-2 .navbar {
+        padding: 0;
+    }
+    .banner-content-2 h2 {
+		display:none;
+        font-size: 24px;
+        margin-top: 70px;
+    }
+    .banner-content-2 p {
+        display: none;
+    }
+    .about, .event, .sermon, .ministires, .blog, .contact, .twitter, .blog-archive {
+        padding: 50px 0;
+    }
+    .message, footer {
+        padding: 50px 0 0px;
+    }
+    .message {
+        text-align: center;
+    }
+    section.banner {
+        padding-bottom: 0; 
+    }
+    
+	.event-head  {
+	    font-size:18px;
+		margin-bottom: 10px;
+	}
+    .banner-content {
+      text-align: center;
+      top: 10%;
+      -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    .countdown div  {
+        font-size: 30px;
+    }
+    .section-header h2.title-text {
+        font-size: 30px;
+    }
+    .about article {
+        float: none;
+        width: auto;
+        margin-bottom: 50px;
+    }
+    .about article:last-child {
+        margin-bottom: 0;
+    }
+    .sermon {
+        text-align: center;
+    }
+    .message-heading {
+        margin-top: 0;
+    }
+    .sermon-link li {
+        float: none;
+        display: inline-block;
+    }
+    .event-block-count-down div span {
+        display: block;
+    }
+    .event-detail span {
+        top: inherit;
+        bottom: 12px;
+    }
+    .photo-gallery-title {
+        display: none;
+    }
+    .contact-header {
+        margin-top: 30px;
+    }
+    .twitter h2 {
+        font-size: 32px;
+    }
+    .photo li {
+        float: none;
+        width: auto;
+        margin-left: 0;
+    }
+    .event-2 h4 {
+        text-align: center;
+    }
+    .event-2 p {
+        text-align: center;
+    }
+    .event-2 p a.btn {
+        margin-left: 0;
+    }
+    .countdown-2 div {
+        font-size: 24px;
+        width: 21%;
+        float: left;
+        margin-left: 4%;
+        background: #e58a00;
+        color: #fff;
+        line-height: 1.4;
+        text-align: center;
+    }
+    .sermon-meta span,
+    .event-meta span {
+        display: block;
+        float: none!important;
+    }
+    .event-block-list img {
+        width: 100%;
+    }
+    .slides li h2 {
+        font-size: 20px;
+    }
+    .blog-list .blog-content-body {
+        width: 100%;
+        padding: 0;
+    }
+    .banner .owl-theme .owl-controls .owl-buttons [class^="owl-"], 
+    .banner .owl-theme .owl-controls .owl-buttons [class*="owl-"] {
+        width: 50px;
+        height: 50px;
+    }
+    .min-block-hover {
+        padding: 10px;
+    }
+    .ministires .min-block:hover .ministries-caption {
+        padding: 7px;
+    }
+	h2.banner-heading{
+		margin-top: 75px;
+	}
+}
+@media screen and (max-width: 1024px) {
+    h2.banner-heading {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 912px) {
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+		display: block !important;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+		display: block !important;
+	}
+    .navbar-toggle {
+        margin-top: 23px;
+		margin:20px 0px 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    header .navbar-nav {
+        float: none!important;
+    }
+    header .navbar-nav > li > a {
+        padding: 12px 15px;
+    }
+    header .navbar-nav > li:last-child,
+    header.header-2 .addbg .navbar-nav > li:last-child {
+        margin: 0;
+    }
+	header .navbar-nav li {
+		float: none;
+		display: block;
+	}
+	.navbar-header {
+		float: none;
+	}
+	header .navbar-nav > li:last-child a{
+		width: 180px;
+	}
+	.header-2 .navbar-fixed-top{
+		position: fixed;
+		top: 0;
+		background: #73979C;
+	}
+	.header-2 .navbar{
+		padding: 15px 0;
+	}	 
+	.header-2 .navbar-toggle{
+		margin-top: 0px;
+	}
+	.header-2 .navbar.addbg .navbar-toggle{
+		margin-top: 15px;
+	}
+	
+}

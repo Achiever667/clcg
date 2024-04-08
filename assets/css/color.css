@@ -1,0 +1,124 @@
+.color1 .header .navbar,.color1 .header-2 .addbg,
+.color1 .about article.green,
+.color1 .ministires .ministries-caption,
+.color1 .ministires .owl-theme .owl-controls .owl-page.active span, 
+.color1 .ministires .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #73979C;
+}
+.color1 header .navbar-nav > li > a:hover,
+.color1 header .navbar-nav > li.current a{
+	background: #3A484A;
+}
+.color1 .navbar-nav .default-btn,
+.color1 .about article .fa{
+	background: rgba(198, 233, 239, 0.4);
+}
+.color1  .default-btn{
+	background: #94B8BE;
+}
+.color1  .default-btn:hover{
+	background: #3A484A;
+}
+.color1 .btn-yellow-trans{
+	border:1px solid #73979C;
+	transition: all 0.3s ease-in;
+}
+.color1 .btn-yellow-trans:hover,
+.color1 .btn-yellow-trans.active{
+	background: #3A484A;
+	color: #fff;
+	border:1px solid #3A484A;
+}
+.color1 .about article.green .fa{
+	color: #fff;
+}
+.about article.green:hover .fa{
+	background: rgba(198, 233, 239, 0.4);
+	color: #3A484A;
+}
+.color1 .about article .fa{
+	color: rgba(0,0,0,0.5);
+	transition: all 0.3s ease-in;
+}
+.color1 .about article:hover .fa{
+	color: #3A484A;
+}
+.color1 .about .btn-yellow-trans{
+	border: 1px solid #fff;
+}
+.color1 .about .btn-yellow-trans:hover{
+	border: 1px solid #3A484A;
+}
+.color1 .btn-green-trans,
+.color1 .btn-green-trans{
+	transition: all 0.3s ease-in;
+	border: 1px solid #3A484A;
+}
+.color1 .btn-green-trans:hover,
+.color1 .btn-green-trans.active{
+	border: 1px solid #3A484A;
+	background: #3A484A;
+}
+.color1 .message,
+.color1 .sermon-link li a:hover,
+.color1 .event-block-count-down div{
+	background: #94B8BE;
+	color: #fff;
+}
+.color1 .message-heading,
+.color1 .ministires .ministries-caption h4{
+	color: #fff;
+}
+.color1 .ministires .min-block{
+	border: 2px solid #73979C;
+}
+.color1 .min-block-hover{
+	background: #3A484A;
+}
+.color1 .sermon-meta a,
+.color1 .r-more:hover,
+.color1 .event-meta-highlt,
+.color1 .event-detail span a,
+.color1 footer h4,
+.color1 .blog-bg .breadcrumb > .active{  
+	color: #94B8BE;
+}
+.color1 .single-page .social-block li a:hover{
+	background: #94B8BE;
+}
+.color1 .gallery-filter .active{
+    color: #94B8BE;
+    border: 1px solid #3A484A;
+}
+.color1 .gallery-filter  button:hover{
+	 color: #94B8BE;
+}
+.color1  .blog-search input[type="search"],
+.color1  .contact_form .form-control, .contact .form-control,
+.color1 footer input[type="email"],
+.color1 footer .input-group-addon{
+	border: 1px solid #94B8BE;
+}
+.color1 .contact_form .form-control:focus,.contact .form-control:focus,
+.color1 .blog-search .form-control:focus,
+.color1 footer input[type="email"]:focus{
+	border-color: rgba(58,72,74,0.3);
+}
+.color1 footer .input-group-addon:hover{
+	border-color: rgba(58,72,74,0.3);
+}
+.color1 .event-2{
+	background: #73979C;
+}
+.color1 .countdown-2 div{
+	background: rgba(198, 233, 239, 0.4);
+}
+.color1 .countdown-2 div  span{
+	background: rgba(198, 233, 239, 0.8);
+}
+.color1 .banner .owl-theme .owl-controls .owl-buttons div.owl-prev{
+	background: rgba(198, 233, 239, 0.4) url(../../images/miscellaneous/arrow-left.png) no-repeat center center;
+}
+.color1 .banner .owl-theme .owl-controls .owl-buttons div.owl-next {
+    background: rgba(198, 233, 239, 0.4) url(../../images/miscellaneous/arrow-right.png) no-repeat center center;
+}
